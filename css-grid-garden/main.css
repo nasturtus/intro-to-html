@@ -1,0 +1,68 @@
+body {
+  background: brown;
+  margin: 20px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  color: brown;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-content: center;
+  background: gray;
+  color: white;
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+}
+
+.nav-item {
+  text-align: center;
+  font-weight: 700;
+}
+
+.body {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+}
+
+.left-content,
+.right-content {
+  font-family: "Spectral", serif;
+}
+
+.left-content {
+  background: bisque;
+  padding: 20px;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.right-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-weight: 200i;
+  font-style: italic;
+  font-size: 12px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
